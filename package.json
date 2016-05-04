@@ -1,6 +1,6 @@
 {
   "name": "emoji-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform text to emoji with node",
   "engines": {
     "node": ">=4"
