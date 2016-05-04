@@ -1,5 +1,5 @@
 var stream = require('stream')
-var sub = require('./sub')
+var sub = require('./lib/sub')
 
 module.exports = getSubStream()
 
@@ -8,12 +8,8 @@ function getSubStream() {
 }
 
 function transform(chunk, encoding, callback) {
-  console.log('chunk', chunk)
   var string = chunk.toString(encoding='utf8')
-  console.log('string', string)
-  var result = sub(string)
-  //console.log('result', result)
-  this.push(result)
+  this.push(sub(string))
   callback()
 }
 
