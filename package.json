@@ -1,0 +1,21 @@
+{
+  "name": "emoji-stream",
+  "version": "1.0.0",
+  "description": "Transform stream for text to emoji",
+  "main": "emo-stream.js",
+  "dependencies": {
+    "emojilib": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "emoji",
+    "stream",
+    "fun",
+    "wow"
+  ],
+  "author": "johnelliott",
+  "license": "MIT"
+}
